@@ -20,7 +20,7 @@ const Projects = () => {
         {projectText.map((project, index) => (
           <div
             key={index}
-            className="mb-8 border-b border-gray-900 pb-6 flex flex-column  flex-wrap md:flex-row justify-center"
+            className="mb-8 border-b border-gray-900 pb-6 flex flex-column  flex-wrap md:flex-row justify-center overflow-x-hidden"
           >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}

@@ -48,7 +48,7 @@ export const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:motion.p-8 ">
-          <div className="flex justify-center align-middle h-full">
+          <div className="flex justify-center align-middle h-full overflow-x-hidden">
             <motion.img
               initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: 1, x: 0 }}

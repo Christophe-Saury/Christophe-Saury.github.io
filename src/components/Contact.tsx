@@ -12,7 +12,7 @@ const Contact = () => {
       >
         Get in Touch
       </motion.h1>
-      <div className="text-center tracking tighter">
+      <div className="text-center tracking tighter overflow-x-hidden">
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
