@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className=" pb-20">
+    <div className=" pb-20 overflow-x-hidden">
       <motion.h1
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1 }}
-        className="my-20 text-center text-4xl"
+        className="my-20 text-center text-4xl "
       >
         Get in Touch
       </motion.h1>
